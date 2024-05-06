@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const FormPage = () => {
   return (
-    <div className="flex flex-row px-[15%] py-[100px]  min-h-screen w-full justify-between relative">
+    <div className="flex flex-row px-[15%] py-[100px]  min-h-screen w-full overflow-hidden justify-between relative">
       <div className="flex flex-col gap-8 w-[38%]">
         <span className="text-white text-[42px]">
           We solve digital problems with an outstanding creative flare
